@@ -7,9 +7,9 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Vincenzo Bellini a Giuditta Turina, in Venezia, 24 febbraio 1830 </title>
-				<author ref=" #VB">Vincenzo Bellini</author>
+				<author ref="#VB">Vincenzo Bellini</author>
 				<respStmt>
-                    <resp>Responsabilità di</resp>
+					<resp>Responsabilità di</resp>
 					<name ref="#AMDG">Angelo Mario Del Grosso</name>
 					<name ref="#DS">Daria Spampinato</name>
 					<name ref="#EC">Erica Capizzi</name>
@@ -27,12 +27,12 @@
 				<respStmt>
 					<resp>Progetto edizione digitale coordinato da</resp>
 					<name ref="#SA">Serena Arrighi</name>
-                    <name ref="#ER">Eleonora Rossi</name>
+					<name ref="#ER">Eleonora Rossi</name>
 				</respStmt>
 				<respStmt>
 					<resp>Codifica di</resp>
 					<name ref="#SA">Serena Arrighi</name>
-                    <name ref="#ER">Eleonora Rossi</name>
+					<name ref="#ER">Eleonora Rossi</name>
 				</respStmt>
 			</editionStmt>
 
@@ -41,8 +41,6 @@
 				<availability>
 					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
 				</availability>
-				<!-- <idno type="url">http://xxxxxx</idno>
-                <date when="yyyyyy" /> va indicato l'uri dell'edizione digitale delle lettere -->
 			</publicationStmt>
 
 			<sourceDesc>
@@ -54,20 +52,17 @@
 						<country>Italia</country>
 						<settlement>Catania</settlement>
 						<repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
-						<!-- riferimento al catalogo delle sigle dei musei in cui è definito I-CATm -->
-						<!-- mettere come secondo valore di ref del tag repository l'URI del nodo museo del dataset del Belliniano -->
-						<idno type="inventory">LL1.3</idno>						<!-- segnatura della singola lettera -->
+						<idno type="inventory">LL1.3</idno>					
 						<altIdentifier><idno type="collocation">in esposizione Casa Natale, sala B, vetrina 3, ripiano 1, II</idno></altIdentifier>
-                        <!-- collocazione della lettera al museo -->
 					</msIdentifier>
 					<msContents>
 						<msItem>
 							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
 							<title type="uniform" xml:lang="it">
 								<persName ref="#VB" role="composer">Vincenzo Bellini</persName> a								
-                                <persName ref="#GCT">Giuditta Turina</persName>, in								
-                                <placeName ref="#VE">Venezia</placeName>,								
-                                <date when="1830-02-24">24 febbraio 1830</date>
+								<persName ref="#GCT">Giuditta Turina</persName>, in								
+								<placeName ref="#VE">Venezia</placeName>,								
+								<date when="1830-02-24">24 febbraio 1830</date>
 							</title>
 							<textLang mainLang="it">italiano di inizio Ottocento</textLang>
 						</msItem>
@@ -77,39 +72,38 @@
 							<supportDesc>
 								<support>
 									<material>Carta sottile.</material>
-									<watermark>Filigrana di forma circolare visibile solo per metà sulla parte centrale del lato destro del folio retro. La filigrana è visibile anche sulla parte centrale del lato sinistro del folio fronte.										
-									Filigrana di forma circolare visibile solo per metà sulla parte centrale del lato sinistro recto della busta.
+									<watermark><hi facs="#LL1.3_hotspot_1rr_01">Filigrana</hi> di forma circolare visibile solo per metà sulla parte centrale del lato destro del folio retro. La <hi facs="#LL1.3_hotspot_1fr_01">filigrana</hi> è visibile anche sulla parte centrale del lato sinistro del folio fronte.										
+									<hi facs="#LL1.3_hotspot_1rv_01">Filigrana</hi> di forma circolare visibile solo per metà sulla parte centrale del lato sinistro recto della busta.
 									</watermark>
-									<stamp> Tracce di due sigilli, uno di ceralacca rossa e uno di ceralacca verde, sul verso della busta. Due macchie circolari di colore marrone presenti sul recto della busta in corrispondenza dei sigilli sul verso della busta.
+									<stamp> Tracce di due sigilli, uno di ceralacca <hi facs="#LL1.3_hotspot_1fv_01">rossa</hi> e uno di ceralacca <hi facs="#LL1.3_hotspot_1fv_02">verde</hi>, sul verso della busta. Due <hi facs="#LL1.3_hotspot_1rv_02">macchie</hi> circolari di colore marrone presenti sul recto della busta in corrispondenza dei sigilli sul verso della busta.
 									Timbro sul verso della busta.
 									</stamp>
 									<p>Lettera in buone condizioni fisiche, composta da un solo folio, piegato in più parti e con testo solo nel fronte e retro bianco. 
-                                    Carta sottile con filigrana, colore beige, inchiostro di colore marrone. 
-                                    La parte centrale del verso della busta presenta l’indirizzo scritto verticalmente dal basso verso l'alto, mentre la piegatura inferiore presenta degli appunti con scrittura sottosopra. 
-                                    Strappo nella parte centrale a sinistra del verso della busta. Stesso strappo nella parte centrale a destra del recto della busta. Timbro sul verso della busta. 
+									Carta sottile con filigrana, colore beige, inchiostro di colore marrone. 
+									La parte centrale del verso della busta presenta l’indirizzo scritto verticalmente dal basso verso l'alto, mentre la piegatura inferiore presenta degli appunti con scrittura sottosopra. 
+									<hi facs="#LL1.3_hotspot_1fv_06">Strappo</hi> nella parte centrale a sinistra del verso della busta. Stesso <hi facs="#LL1.3_hotspot_1rv_03">strappo</hi> nella parte centrale a destra del recto della busta. Timbro sul verso della busta. 
 									</p>
 									<p>Piccole macchie marrone chiaro presenti sul folio, sia sul fronte che sul retro, e sulla busta, sia sul recto che sul verso. Probabilmente dovute a invecchiamento del supporto materiale.
-									Segno grafico non decifrabile sul verso della busta: linea curva color marrone, simile a un "12" scritto verticalmente, dal basso verso l'alto, con angoli stondati.
+									Segno grafico non decifrabile sul verso della busta: linea curva color marrone, simile a un <hi facs="#LL1.3_hotspot_1fv_03">"12"</hi> scritto verticalmente, dal basso verso l'alto, con angoli stondati.
 									</p>
 								</support>
 								<extent>
-									<measure type="folio">1</measure>				<!--  va inserita la quantità dell'oggetto, indicando in type il tipo descritto -->
+									<measure type="folio">1</measure>				
 									<dimensions unit="mm">
 										<height>187</height>
 										<width>125</width>
 									</dimensions>
 								</extent>
-								<foliation>		<!-- es. folio verso a sx, folio recto a dx con suddivisioni ulteriori. -->
+								<foliation>		
 										Segni di piegature asimmetriche che suddividono il folio e la busta in sedici sezioni, con il margine destro di dimensione ridotta. 
 								</foliation>
 								<condition>
-									<!-- descrizione delle condizioni fisiche di conservazione della lettera -->
 									<p>Lettera in buone condizioni fisiche.</p>
 								</condition>
 							</supportDesc>
 						</objectDesc>
 						<handDesc hands="2">
-							<handNote xml:id="h2"><p>Scrittura a mano libera leggibile. Annotazione di seconda mano con scrittura a inchiostro nero sottosopra nella parte inferiore, lato sinistro, del verso della busta.
+							<handNote xml:id="h2" facs="#LL1.3_hotspot_1fv_04"><p>Scrittura a mano libera leggibile. Annotazione di seconda mano con scrittura a inchiostro nero sottosopra nella parte inferiore, lato sinistro, del verso della busta.
 							Dicitura écriture <unclear reason="illegible">di</unclear> Bellini.
 							</p></handNote>
 						</handDesc>
@@ -234,7 +228,7 @@
 					<ab type="receiver">
 						<address>						<!--  informazioni del destinatario -->
 							<lb xml:id="LL1.3_lb_1fv_01" n="1" facs="#LL1.3_line_1fv_01"/>
-							<addrLine>A <foreign xml:lang="fr">Madame</foreign> <persName ref="#GCT"><foreign xml:lang="fr">Judith</foreign> Turina</persName>
+							<addrLine>A <foreign xml:lang="fr">Madame</foreign> <persName ref="#GCT"><foreign xml:lang="fr">Judith</foreign> <hi>Turina</hi></persName>
 							</addrLine>
 							<lb xml:id="LL1.3_lb_1fv_02" n="2" facs="#LL1.3_line_1fv_02"/>
 							<addrLine> <foreign xml:lang="fr">Cremone pour</foreign> <placeName ref="#Casal">Casalbuttano</placeName></addrLine>
@@ -249,7 +243,6 @@
 		<body xml:lang="it">
 			<div type="fronte-recto">
 				<pb n="1" xml:id="LL1.3_fol_1fr" facs="#LL1.3_folio_1fr"/>
-				<!--<div type="opener" n="o_01">-->
 				<opener n="o_01">
 					
 					<dateline n="ab_01">
@@ -261,7 +254,7 @@
 										<placeName ref="#VE">Venezia</placeName> 
 									</addrLine>
 								</address>
-								<date when="02-24">24<pc type="colon">:</pc> <distinct type="archaic"><expan><abbr>F</abbr><ex resp="#SA #ER">ebra</ex><abbr>jo</abbr></expan></distinct></date>	
+								<date when="02-24">24<pc type="colon">: </pc> <distinct type="archaic"><expan><abbr>F</abbr><ex resp="#SA #ER">ebra</ex><abbr>jo</abbr></expan></distinct></date>	
 							</s>
 						</hi>
 					</dateline>
@@ -270,19 +263,17 @@
 					<salute  n="ab_02">
 						<s type="sentence" n="s_02">
 							<lb xml:id="LL1.3_lb_1fr_02" n="2" facs="#LL1.3_line_1fr_02"/>
-							<hi rend="align(left)">Mia cara <persName ref="#GCT">amica</persName><pc type="dot">.</pc>
-								<supplied resp="#SA #ER" reason="integration">Giuditta Turina</supplied>
+							<hi rend="align(left)">Mia cara <persName ref="#GCT">amica</persName>
+								<supplied resp="#SA #ER" reason="integration">Giuditta Turina</supplied><pc type="dot">.</pc>
 							</hi>
 						</s>
 					</salute>
 					
 				</opener>
-				<!--</div> pc -->
 	
 				<div type="letter-body" n="t_01"> 
 					<ab type="parag"  n="ab_03">
 						<s type="sentence" n="s_03">
-							<!--<lb xml:id="LL1.3_lb_1fr_03" n="3" facs="#LL1.3_line_1fr_02"/>-->
 							Due sole parole e vi lascio<pc type="dot">.</pc>
 						</s>
 						<s type="sentence" n="s_04">
@@ -311,14 +302,14 @@
 					<ab type="parag"  n="ab_04">
 						<s type="sentence" n="s_05">
 							<time>
-								<distinct type="archaic">Ier
+								<distinct type="archaic"> Ier
 									<lb xml:id="LL1.3_lb_1fr_07" n="7" facs="#LL1.3_line_1fr_07" break="no" rend="double stroke"/>
 									sera
 								</distinct>
 							</time>
 							ho <distinct type="archaic">cominciate</distinct> le <distinct type="archaic">pruove</distinct><pc type="comma">,</pc> ed al <date when="03-09">nove di 
 							<lb xml:id="LL1.3_lb_1fr_08" n="8" facs="#LL1.3_line_1fr_08"/>
-							marzo</date> si spera d<pc type="apostrophe">'</pc><choice><sic>antare</sic><corr resp="#SA #ER">andare</corr></choice><ptr target="#LL1_3_note3"/>  in <term subtype="music-term" ref="#scena">scena</term><pc type="dot">.</pc> 
+							marzo</date> si spera d<pc type="apostrophe">'</pc><choice xml:id="sic_corr"><sic>antare</sic><corr resp="#SA #ER">andare</corr></choice><ptr target="#LL1_3_note3"/>  in <term subtype="music-term" ref="#scena">scena</term><pc type="dot">.</pc> 
 						</s>
 					</ab>
 					<ab type="parag"  n="ab_05">
@@ -343,8 +334,8 @@
 								o
 								<lb xml:id="LL1.3_lb_1fr_11" n="11" facs="#LL1.3_line_1fr_11" break="no" rend="double stroke"/>
 								nomastico
-							</w> <!--persname-->
-							della buona <persName ref="#F">mamma Francesca</persName><ptr target="#LL1_3_note4"/><pc type="comma">,</pc> 
+							</w> 
+							della buona <persName>mamma Francesca</persName><ptr target="#LL1_3_note4"/><pc type="comma">,</pc> 
 							<lb xml:id="LL1.3_lb_1fr_12" n="12" facs="#LL1.3_line_1fr_12" />
 							mi dà delle gran speranze ch<pc type="apostrophe">'</pc>io possa
 							<lb xml:id="LL1.3_lb_1fr_13" n="13" facs="#LL1.3_line_1fr_13" />
@@ -355,7 +346,7 @@
 							<lb xml:id="LL1.3_lb_1fr_14" n="14" facs="#LL1.3_line_1fr_14" />
 							come alla <persName ref="#RBo">Rosina</persName><ptr target="#LL1_3_note5"/>
 							<supplied resp="#SA #ER" reason="integration">Rosa Bossi</supplied> 
-							<persName ref="#BT">Bartolo</persName> 
+							<persName ref="#BT"> Bartolo</persName> 
 							<supplied resp="#SA #ER" reason="integration">Bartolomeo Turina</supplied><pc type="comma">,</pc>  
 							<persName ref="#C">Ceriali</persName><ptr target="#LL1_3_note1"/><pc type="comma">,</pc>  il
 							<lb xml:id="LL1.3_lb_1fr_15" n="15" facs="#LL1.3_line_1fr_15" />
@@ -370,21 +361,21 @@
 						</s>
 					</ab>
 				</div>
-				<!--<div type="closer" n="c_01">-->
+
 				<closer n="c_01"> 
 					<salute n="ab_06">
 						<s type="sentence" n="s_11">
 							<lb xml:id="LL1.3_lb_1fr_18" n="18" facs="#LL1.3_line_1fr_18" />
 							<hi rend="align(right)"><hi rend="underline">Vostro 
-								<abbr type="contraction"><choice><orig>affssmo</orig><reg resp="#SA #ER">affezionatissimo</reg></choice></abbr>
+								<abbr type="contraction"><choice xml:id="orig_reg"><orig>affssmo</orig><reg resp="#SA #ER">affezionatissimo</reg></choice></abbr>
 							</hi></hi>
 							<persName ref="#VB" role="composer">amico</persName> 
 							<supplied resp="#SA #ER" reason="integration">Vincenzo Bellini</supplied>						
 						</s>
 					</salute>
 				</closer>
-				<!--</div>-->
-		 			
+
+					
 			</div>
 			<div type="retro-recto">
 				<pb n="2" xml:id="LL1.3_fol_1rr" facs="#LL1.3_folio_1rr"/>
@@ -407,7 +398,7 @@
 					<ab type="receiver">
 						<address>						<!--  informazioni del destinatario -->
 							<lb xml:id="LL1.3_lb_1fv_01_1" n="1" facs="#LL1.3_line_1fv_01"/>
-							<addrLine>A <foreign xml:lang="fr">Madame</foreign> <persName ref="#GCT"><foreign xml:lang="fr">Judith</foreign> Turina</persName>
+							<addrLine>A <foreign xml:lang="fr">Madame</foreign> <persName ref="#GCT"><foreign xml:lang="fr">Judith</foreign> <hi>Turina</hi></persName>
 							</addrLine>
 							<lb xml:id="LL1.3_lb_1fv_02_1" n="2" facs="#LL1.3_line_1fv_02"/>
 							<addrLine> <foreign xml:lang="fr">Cremone pour</foreign> <placeName ref="#Casal">Casalbuttano</placeName></addrLine>
@@ -427,18 +418,18 @@
 
 
 		<back>
-			<!-- inserire le note -->
+
 			<div type="notes">
 				<div type="ann_notes">
 					<note xml:id="LL1_3_note1" source="#Seminara2017" resp="#GS" ana="318" type="generic">
-						 <bibl>	
-						 	<citedRange unit="page" from="202" to="202">202</citedRange>
-          	  			</bibl>
+						<bibl>	
+							<citedRange unit="page" from="202" to="202">202</citedRange>
+						</bibl>
 						<p> 
 							<persName ref="#C">Ceriali</persName> era un ricco possidente di <placeName ref="#Casal">Casalbuttano</placeName>. 
 						</p>
 					</note>
-					<note xml:id="LL1_3_note2" resp="#SA #ER">
+					<note xml:id="LL1_3_note2" type="nota_SAER" resp="#SA #ER">
 						<p>
 							<persName ref="#VB" role="composer">Bellini</persName> si riferiva a un "Dottore" non meglio specificato, di cui non abbiamo nessuna informazione. 
 						</p>
@@ -451,7 +442,7 @@
 								in origine <emph rend="italic">antare</emph>							
 							</p>
 					</note>
-					<note xml:id="LL1_3_note4"  resp="#SA #ER">
+					<note xml:id="LL1_3_note4"  type="nota_SAER" resp="#SA #ER">
 							<p>
 								Probabilmente <persName ref="#VB" role="composer">Bellini</persName> si riferiva alla mamma di <persName ref="#GCT">Giuditta Turina</persName>.
 							</p>
@@ -463,8 +454,8 @@
 							<p> 
 								<persName ref="#RBo" role="composer">Rosa Bossi</persName> (Castelleone 1796 - <placeName ref="#Casal">Casalbuttano</placeName> 1830),
 								moglie di <persName ref="#BT">Bartolomeo Turina</persName> (detto “Bartolo”) e 
-                  				cognata di <persName ref="#FT">Ferdinando</persName> e <persName ref="#GCT">Giuditta Turina</persName>.
-                  				Dal marito ebbe quattro figli, ma ne sopravvissero solo due: Francesca, nata nel 1818, e Fortunato, nato nel 1825.	
+								cognata di <persName ref="#FT">Ferdinando</persName> e <persName ref="#GCT">Giuditta Turina</persName>.
+								Dal marito ebbe quattro figli, ma ne sopravvissero solo due: Francesca, nata nel 1818, e Fortunato, nato nel 1825.	
 							</p>
 					</note>
 				</div>
@@ -473,32 +464,32 @@
 					<listBibl xml:id="LL1_3_bibliography">
 						<head>Bibliografia della lettera LL1.3 </head>
 						<bibl xml:id="LL1_3_Pastura">
-							 	<ref target="#Pastura1958">
-									 <bibl>
-										<author>Pastura</author>
-										<date when="1958">1958</date>
-										<citedRange unit="page" from="5" to="5">5</citedRange>
-									</bibl>
-								</ref>
+							<ref target="#Pastura1958">
+								<bibl>
+									<author>Pastura</author>
+									<date when="1958">1958</date>
+									<citedRange unit="page" from="5" to="5">5</citedRange>
+								</bibl>
+							</ref>
 						</bibl>
 						<bibl xml:id="LL1_3_Neri">
-								<ref target="#Neri2005">
-									<bibl>
-										<author>Neri</author>
-										<date when="2005">2005</date>
-										<citedRange unit="page" from="163" to="163">163</citedRange>
-									</bibl>
-								</ref>
+							<ref target="#Neri2005">
+								<bibl>
+									<author>Neri</author>
+									<date when="2005">2005</date>
+									<citedRange unit="page" from="163" to="163">163</citedRange>
+								</bibl>
+							</ref>
 						</bibl>
 
 						<bibl xml:id="LL1_3_Seminara">
-								<ref target="#Seminara2017">
-									<bibl>
-										<author>Seminara</author>
-										<date when="2017">2017</date>
-										<citedRange unit="page" from="212" to="212">212</citedRange>
-									</bibl>
-								</ref>
+							<ref target="#Seminara2017">
+								<bibl>
+									<author>Seminara</author>
+									<date when="2017">2017</date>
+									<citedRange unit="page" from="212" to="212">212</citedRange>
+								</bibl>
+							</ref>
 						</bibl>
 						
 
@@ -507,34 +498,36 @@
 			</div>
 			<div type="lists">
 				<listPerson>
-          			<head>Lista persone</head>
+					<head>Lista persone</head>
 					<person xml:id="VB" sameAs="http://viaf.org/viaf/39560983"> 
-						<persName role="composer"> <!-- esempi: composer, librettist, tenore, editor, ...-->
+						<persName role="composer"> 
 							<ref target="http://data.rism.info/id/rismauthorities/pe11648 http://www.treccani.it/enciclopedia/vincenzo-bellini_(Dizionario-Biografico)"/>
 							<forename>Vincenzo</forename>
 							<forename>Salvatore</forename>
 							<forename>Carmelo</forename>
-							<forename>Francesco </forename> 
-						<surname>Bellini</surname>
-						<addName type="alias">Il Cigno</addName>
-						<roleName type="honorific">Cavaliere della Legione d'onore</roleName> 
+							<forename>Francesco</forename> 
+							<surname>Bellini</surname>
+							<addName type="alias">Il Cigno</addName>
+							<roleName type="honorific">Cavaliere della Legione d'onore</roleName> 
 						</persName>
-						<sex>M </sex>
-						<birth><date when="1801-11-03">3 novembre 1801</date>
-							<placeName ref="TEI-ListPlace#CT">
-									<settlement type="municipality">Catania</settlement>
-									<settlement type="provincia" key="CT">Catania</settlement>
-									<country key="IT">Italia</country>
+						<sex>M</sex>
+						<birth>
+							<date when="1801-11-03">3 novembre 1801</date>
+							<placeName ref="#CT">
+								<settlement type="municipality">Catania</settlement>
+								<settlement type="provincia" key="CT">Catania</settlement>
+								<country key="IT">Italia</country>
 							</placeName>
 						</birth>
-						<death><date when="1835-09-23">23 settembre 1835</date>
+						<death>
+							<date when="1835-09-23">23 settembre 1835</date>
 							<placeName ref="TEI-ListPlace#Put">
 									<settlement type="municipality">Puteaux</settlement>
 									<settlement type="department" key="Paris">Paris</settlement>
 									<country key="FR">France</country>
 							</placeName>
 						</death>       		
-          			</person>
+					</person>
 					<person xml:id="GCT"> 
 						<persName role="unknown">
 							<ref target="https://en.wikipedia.org/wiki/Vincenzo_Bellini#Giuditta_Turina https://www.digitalarchivioricordi.com/it/people/display/20033/Giuditta%20Cant%C3%B9%20Turina"/>
@@ -564,15 +557,14 @@
 							<date type="unknown"/>
 						</death>
 						<note source="#Seminara2017" resp="#GS" ana="318">
-							<bibl>
-															
+							<bibl>							
 								<citedRange unit="page" from="202" to="202">202</citedRange>
 							</bibl>
 							<p> 
 							Ceriali era un ricco possidente di <placeName ref="#Casal">Casalbuttano</placeName>. 
 							</p>
 						</note>          		
-        			</person>
+					</person>
 					<person xml:id="FT"> 
 						<persName role="silk_manufacturer">
 							<ref target="http://www.studibelliniani.eu/?page_id=83"/>
@@ -587,7 +579,7 @@
 						<death>
 							<date type="unknown"/>
 						</death>
-        			</person>
+					</person>
 					<person xml:id="RBo"> 
 						<persName role="unknown">
 							<ref target=""/>
@@ -623,7 +615,7 @@
 							Francesca, nata nel 1818, e Fortunato, nato nel 1825.                 
 							</p>
 						</note>          		
-        			</person>
+					</person>
 					<person xml:id="BT"> 
 						<persName role="unknown">
 							<forename>Bartolomeo</forename>
@@ -648,124 +640,156 @@
 						<relation name="sister-in-law" mutual="#RBo #GCT"/>
 						<relation name="sister-in-law" active="#RBo" passive="#FT"/>
 						<relation name="brother-in-law" active="#FT" passive="#RBo"/>
-            		</listRelation>
+					</listRelation>
 				</listPerson>
 				<listPlace>
 					<head>Lista dei luoghi</head>
 					<place xml:id="VE">
-                        <placeName ref="http://www.geonames.org/3164603 http://www.treccani.it/enciclopedia/venezia">Venezia</placeName>
-                        <country key="IT">Italia</country>
-                        <note></note>
-                    </place>
+						<placeName ref="http://www.geonames.org/3164603 http://www.treccani.it/enciclopedia/venezia">Venezia</placeName>
+						<country key="IT">Italia</country>
+					</place>
 					<place xml:id="CR">
-                        <placeName ref="https://www.geonames.org/3177838 http://www.treccani.it/enciclopedia/cremona">Cremona</placeName>
-                        <country key="IT">Italia</country>
-                        <note></note>
-                    </place>
-					<place xml:id="Casal"> <!--nota copiata ???-->
-                        <placeName ref="https://www.geonames.org/3180242 http://www.treccani.it/enciclopedia/casalbuttano-ed-uniti">Casalbuttano</placeName>
-                        <country key="IT">Italia</country>
-                        <note></note>
-                    </place>
+						<placeName ref="https://www.geonames.org/3177838 http://www.treccani.it/enciclopedia/cremona">Cremona</placeName>
+						<country key="IT">Italia</country>
+					</place>
+					<place xml:id="Casal"> 
+						<placeName ref="https://www.geonames.org/3180242 http://www.treccani.it/enciclopedia/casalbuttano-ed-uniti">Casalbuttano</placeName>
+						<country key="IT">Italia</country>
+					</place>
 					<place xml:id="CT">
-                        <placeName ref="http://www.geonames.org/2525068/catania.html http://www.treccani.it/enciclopedia/catania/">Catania</placeName>
-                        <country key="IT">Italia</country>
-                        <note></note>
-                    </place>
+						<placeName ref="http://www.geonames.org/2525068/catania.html http://www.treccani.it/enciclopedia/catania/">Catania</placeName>
+						<country key="IT">Italia</country>
+					</place>
 					<place xml:id="Put">
-                         <placeName ref="http://www.geonames.org/2985034 http://www.treccani.it/enciclopedia/puteaux_(Enciclopedia-Italiana)">Puteaux</placeName>
-                         <district type="arrondissement">Nanterre</district>
-                         <settlement type="city">Paris</settlement>
-                         <country key="FR">France</country>
-                         <note source="#Seminara2017" resp="#GS" ana="580">
-                        	  <bibl>
-                        	  	  <citedRange unit="page" from="346" to="346">346</citedRange>
-                        	  </bibl>
-                        	  <p>Puteaux era un sobborgo di <placeName ref="#Paris">Parigi</placeName>, immerso nel verde e situato sulla <foreign xml:lang="fr">rive gauche</foreign> della Senna. Qui Bellini si stabilì dal 26 maggio al 1° novembre 1834 e di nuovo nel 1835 dall'11 maggio al 23 settembre (giorno della morte) nella residenza di Solomon Levy (o Lewis), un facoltoso ebreo inglese che verosimilmente aveva conosciuto nel 1830 a Milano. Levy, che negli anni 1834-35 si trattenne stabilmente a Parigi, apparteneva alla cerchia delle più ristrette frequentazioni francesi del musicista; risiedeva in un lussuoso appartamento in Boulevard des Capucines, ma possedeva anche la residenza di Puteaux.
-														</p>                        											
-                        	</note>
-                    </place>
+						<placeName ref="http://www.geonames.org/2985034 http://www.treccani.it/enciclopedia/puteaux_(Enciclopedia-Italiana)">Puteaux</placeName>
+						<district type="arrondissement">Nanterre</district>
+						<settlement type="city">Paris</settlement>
+						<country key="FR">France</country>
+						<note source="#Seminara2017" resp="#GS" ana="580">
+							<bibl>
+								<citedRange unit="page" from="346" to="346">346</citedRange>
+							</bibl>
+							<p>
+								Puteaux era un sobborgo di 
+								<placeName ref="#Paris">Parigi</placeName>
+								, immerso nel verde e situato sulla 
+								<foreign xml:lang="fr">rive gauche</foreign> 
+								della Senna. Qui Bellini si stabilì dal 26 maggio al 1° novembre 1834 e di nuovo nel 1835 dall'11 maggio al 23 settembre (giorno della morte) nella residenza di Solomon Levy (o Lewis), un facoltoso ebreo inglese che verosimilmente aveva conosciuto nel 1830 a Milano. Levy, che negli anni 1834-35 si trattenne stabilmente a Parigi, apparteneva alla cerchia delle più ristrette frequentazioni francesi del musicista; risiedeva in un lussuoso appartamento in Boulevard des Capucines, ma possedeva anche la residenza di Puteaux.
+							</p>                        											
+						</note>
+					</place>
 					<listRelation>
-              		    <relation name="near" mutual="#Put #NSS"/>
-      				</listRelation>
+						<relation name="near" mutual="#Put #NSS"/>
+					</listRelation>
 				</listPlace>
 				<list type="terminology">
-                    <head>Vocabolario</head>  
+					<head>Vocabolario</head>  
 					<label>
-                        <term subtype="music-term" xml:lang="it" xml:id="atto" key="lesmu_">Atto</term>
-                    </label>
-                    <item>
-                        <gloss xml:lang="it" target="#atto" source="TEI-ListBibl.xml#DellaSeta2010">
-                        	Unità di suddivisione principale di un dramma, di un’<term subtype="music-term" ref="#opera">opera </term>o di un <term subtype="music-term" ref="#balletto">balletto</term>, che può essere ulteriormente suddivisa in <term subtype="music-term">quadri</term> – sezioni di norma caratterizzate da unità di luogo e tempo – e in <term subtype="music-term" ref="#scena">scene</term>. Implicita nella struttura della tragedia greca, la divisione in atti, di solito cinque separati da intervalli, fu introdotta in epoca romana e fu istituzionalizzata dalle poetiche classicistiche del Cinquecento. <gap reason="editorial"/>Nell’opera italiana si affermarono presto altri modelli: il <term subtype="music-term">dramma per musica</term> tra Sei e Settecento era sempre in tre atti (separati da due <term subtype="music-term">intermezzi</term> e spesso seguiti da un <term subtype="music-term" ref="#balletto">ballo</term>conclusivo), tra Settecento e Ottocento prevalse la divisione in due atti (con un ballo nell’intervallo e un altro in conclusione), nel pieno Ottocento furono adottati modelli che andavano da due a quattro atti, eventualmente preceduti da un <term subtype="music-term">prologo</term>. <gap reason="editorial"/>
-                        </gloss>
-                    </item>
+						<term subtype="music-term" xml:lang="it" xml:id="atto" key="lesmu_">Atto</term>
+					</label>
+					<item>
+						<gloss xml:lang="it" target="#atto" source="#DellaSeta2010">
+							Unità di suddivisione principale di un dramma, di un’<term subtype="music-term" ref="#opera">opera </term>o di un <term subtype="music-term" ref="#balletto">balletto</term>, che può essere ulteriormente suddivisa in <term subtype="music-term">quadri</term> – sezioni di norma caratterizzate da unità di luogo e tempo – e in <term subtype="music-term" ref="#scena">scene</term>. Implicita nella struttura della tragedia greca, la divisione in atti, di solito cinque separati da intervalli, fu introdotta in epoca romana e fu istituzionalizzata dalle poetiche classicistiche del Cinquecento. <gap reason="editorial"/>Nell’opera italiana si affermarono presto altri modelli: il <term subtype="music-term">dramma per musica</term> tra Sei e Settecento era sempre in tre atti (separati da due <term subtype="music-term">intermezzi</term> e spesso seguiti da un <term subtype="music-term" ref="#balletto">ballo</term>conclusivo), tra Settecento e Ottocento prevalse la divisione in due atti (con un ballo nell’intervallo e un altro in conclusione), nel pieno Ottocento furono adottati modelli che andavano da due a quattro atti, eventualmente preceduti da un <term subtype="music-term">prologo</term>. <gap reason="editorial"/>
+						</gloss>
+					</item>
 					<label>
-                        <term subtype="music-term" xml:lang="it" xml:id="recitativo" key="">Recitativo</term>
-                    </label>
-                    <item>
-                        <gloss xml:lang="it" target="#recitativo" source="TEI-ListBibl.xml#DellaSeta2010">
-                        Stile di <term subtype="music-term">canto</term> che imita i modi della recitazione parlata. Presente da sempre in tutte le culture e in tutte le epoche <gap reason="editorial"/>. Nel primo Ottocento furono ancora modelli francesi a imporre l'impiego del recitativo strumentato nell'<term subtype="music-term" ref="#opera_seria">opera seria</term> italiana, in particolare a Napoli; tale pratica, qui accolta da Rossini, si diffuse sul suo esempio fino a diventare esclusiva, mentre il recitativo semplice sopravvisse a lungo nell'<term subtype="music-term">opera buffa</term>. Nel corso dell'Ottocento la distinzione tra recitativo e cantabile si andò attenuando, in quanto il primo fu sempre meno usato come connettivo tra i diversi <term subtype="music-term">numeri</term> e fu incorporato in essi (v. <term subtype="music-term" ref="#scena">scena[4]</term>); compositori quali Bellini, Donizzetti e Verdi fecero spesso uso di ampie frasi in stile di <term subtype="music-term" ref="#arioso">arioso</term>, che consentivano di passare più gradualmente dal recitativo al <term subtype="music-term">cantabile</term>. Il processo continuò fino alla fine del secolo, quando la distinzione può considerarsi scomparsa. <gap reason="editorial"/>
-                        </gloss>
-                    </item>
+						<term subtype="music-term" xml:lang="it" xml:id="recitativo" key="">Recitativo</term>
+					</label>
+					<item>
+						<gloss xml:lang="it" target="#recitativo" source="#DellaSeta2010">
+						Stile di <term subtype="music-term">canto</term> che imita i modi della recitazione parlata. Presente da sempre in tutte le culture e in tutte le epoche <gap reason="editorial"/>. Nel primo Ottocento furono ancora modelli francesi a imporre l'impiego del recitativo strumentato nell'<term subtype="music-term" ref="#opera_seria">opera seria</term> italiana, in particolare a Napoli; tale pratica, qui accolta da Rossini, si diffuse sul suo esempio fino a diventare esclusiva, mentre il recitativo semplice sopravvisse a lungo nell'<term subtype="music-term">opera buffa</term>. Nel corso dell'Ottocento la distinzione tra recitativo e cantabile si andò attenuando, in quanto il primo fu sempre meno usato come connettivo tra i diversi <term subtype="music-term">numeri</term> e fu incorporato in essi (v. <term subtype="music-term" ref="#scena">scena[4]</term>); compositori quali Bellini, Donizzetti e Verdi fecero spesso uso di ampie frasi in stile di <term subtype="music-term" ref="#arioso">arioso</term>, che consentivano di passare più gradualmente dal recitativo al <term subtype="music-term">cantabile</term>. Il processo continuò fino alla fine del secolo, quando la distinzione può considerarsi scomparsa. <gap reason="editorial"/>
+						</gloss>
+					</item>
 					<label>
-                        <term subtype="music-term" xml:lang="it" xml:id="scena" key="">Scena</term>
-                    </label>
-                    <item>
-                        <gloss xml:lang="it" target="#scena" source="#DellaSeta2010">
-                        (1) Spazio che ospita la rappresentazione teatrale visibile al pubblico, delimitato orizzontalmente dal <term subtype="music-term">palcoscenico</term> e verticalmente dalla <term subtype="music-term">scenografia</term>. (2) Luogo in cui è ambientata e in cui si sviluppa l'azione drammatica. (3) Unità di suddivisione, spesso numerata, del testo drammatico, caratterizzata da omogeneità di luogo e tempo e definita dall'ingresso e dall'uscita di uno o più personaggi. Le scene, di numero variabile, possono essere raggruppate in <term subtype="music-term">quadri</term> se si svolgono con identica scenografia oppure in <term subtype="music-term" ref="#atto">atti</term>; nel <term subtype="music-term">teatro musicale</term> la transizione tra le scene è spesso accompagnata da un <term subtype="music-term">interludio strumentale</term>. (4) Nel <term subtype="music-term">melodramma</term> del XIX sec., episodio drammatico che combina <term subtype="music-term" ref="#recitativo">recitativo</term>, <term subtype="music-term">arioso</term> e musica orchestrale, e che costituisce la prima sezione di un <term subtype="music-term">numero</term>. Il termine era a volte impiegato (anche nella forma "gran scena") per definire un intero numero solistico, formato da molte sezioni, in cui l'interesse drammatico prevaleva su quello strettamente musicale.
-                        </gloss>
-                    </item>
+						<term subtype="music-term" xml:lang="it" xml:id="scena" key="">Scena</term>
+					</label>
+					<item>
+						<gloss xml:lang="it" target="#scena" source="#DellaSeta2010">
+						(1) Spazio che ospita la rappresentazione teatrale visibile al pubblico, delimitato orizzontalmente dal <term subtype="music-term">palcoscenico</term> e verticalmente dalla <term subtype="music-term">scenografia</term>. (2) Luogo in cui è ambientata e in cui si sviluppa l'azione drammatica. (3) Unità di suddivisione, spesso numerata, del testo drammatico, caratterizzata da omogeneità di luogo e tempo e definita dall'ingresso e dall'uscita di uno o più personaggi. Le scene, di numero variabile, possono essere raggruppate in <term subtype="music-term">quadri</term> se si svolgono con identica scenografia oppure in <term subtype="music-term" ref="#atto">atti</term>; nel <term subtype="music-term">teatro musicale</term> la transizione tra le scene è spesso accompagnata da un <term subtype="music-term">interludio strumentale</term>. (4) Nel <term subtype="music-term">melodramma</term> del XIX sec., episodio drammatico che combina <term subtype="music-term" ref="#recitativo">recitativo</term>, <term subtype="music-term">arioso</term> e musica orchestrale, e che costituisce la prima sezione di un <term subtype="music-term">numero</term>. Il termine era a volte impiegato (anche nella forma "gran scena") per definire un intero numero solistico, formato da molte sezioni, in cui l'interesse drammatico prevaleva su quello strettamente musicale.
+						</gloss>
+					</item>
 
 				</list>
 				<listBibl>
 					<bibl xml:id="Seminara2017" type="print">
-                        <editor ref="#GS">
-                        	<forename>Graziella</forename>
-                        	<surname>Seminara</surname>
-                        </editor>
-                        <title level="m">Vincenzo Bellini. Carteggi</title>
-                        <title level="s">Historiae Musicae Cultores</title>
-                     		<biblScope unit="volume">CXXXI</biblScope>
-                        <biblScope unit="page">pp. vi+622</biblScope>
-  											<pubPlace>Firenze</pubPlace>
-                        <publisher>Leo S. Olschki Editore</publisher>
-                        <date when="2017">2017</date>                       
-                    </bibl>
+						<editor ref="#GS">
+							<forename>Graziella </forename> 
+							<surname>Seminara</surname>
+						</editor>
+						<title level="m">Vincenzo Bellini. Carteggi</title>
+						<title level="s">Historiae Musicae Cultores</title>
+						<biblScope unit="volume">CXXXI</biblScope>
+						<biblScope unit="page">pp. vi+622</biblScope>
+						<pubPlace>Firenze</pubPlace>
+						<publisher>Leo S. Olschki Editore</publisher>
+						<date when="2017">2017</date>                       
+					</bibl>
+
 					<bibl xml:id="DellaSeta2010" type="print">
-                        <editor xml:id="FDS">
-                        	<forename>Fabrizio</forename>
-                        	<surname>Della Seta</surname>
-                        </editor>
-                        <title level="m">Le parole del teatro musicale</title>
-                        <pubPlace>Roma</pubPlace>
-                        <publisher>Carocci</publisher>
-                        <date when="2010">2010</date>
-                    </bibl>
+						<editor xml:id="FDS">
+							<forename>Fabrizio </forename>
+							<surname>Della Seta</surname>
+						</editor>
+						<title level="m">Le parole del teatro musicale</title>
+						<pubPlace>Roma</pubPlace>
+						<publisher>Carocci</publisher>
+						<date when="2010">2010</date>
+					</bibl>
+
 					<bibl xml:id="Pastura1958" type="print">
-                        <author xml:id="FPa">
-                        	<forename>Francesco</forename>
-                        	<surname>Pastura</surname>
-                        </author>
- 												<title level="a">Nuovi importanti documenti assicurati al Museo Belliniano</title>
-                         <title level="j">Rivista del Comune di Catania</title>
-                     		<biblScope unit="volume">VI</biblScope>
-  											<biblScope unit="page" from="111" to="118">111-118</biblScope>
-                        <pubPlace>Catania</pubPlace>
-                        <date when="1958">ottobre-dicembre 1958</date>
-                    </bibl>
+						<author xml:id="FPa">
+							<forename>Francesco </forename>
+							<surname>Pastura</surname>
+						</author>
+						<title level="a">Nuovi importanti documenti assicurati al Museo Belliniano</title>
+						<title level="j">Rivista del Comune di Catania</title>
+						<biblScope unit="volume">VI</biblScope>
+						<biblScope unit="page" from="111" to="118">111-118</biblScope>
+						<pubPlace>Catania</pubPlace>
+						<date when="1958">ottobre-dicembre 1958</date>
+					</bibl>
+					
 					<bibl xml:id="Neri2005" type="print">
-                        <author xml:id="CN">
-                        	<forename>Carmelo</forename>
-                        	<surname>Neri</surname>
-                        </author>
-                        <title level="m">Vincenzo Bellini. Nuovo Epistolario. 1819-1835</title>
-                        <pubPlace>Catania</pubPlace>
-                        <publisher>Agorà</publisher>
-                        <date when="2005">2005</date>
-                    </bibl>
+						<author xml:id="CN">
+							<forename>Carmelo </forename>
+							<surname>Neri</surname>
+						</author>
+						<title level="m">Vincenzo Bellini. Nuovo Epistolario. 1819-1835</title>
+						<pubPlace>Catania</pubPlace>
+						<publisher>Agorà</publisher>
+						<date when="2005">2005</date>
+					</bibl>
 				</listBibl>
 				
-		   </div>
+			</div>
 		</back>
 	</text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
