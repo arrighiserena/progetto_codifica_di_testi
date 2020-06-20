@@ -1,5 +1,5 @@
 function resetLine(name){  
-   for (var i = 0; i < 42;i++){
+   for (var i = 0; i < 94;i++){
      document.getElementsByTagName('a').item([i]).className='reset-riga';
    }
    document.getElementsByName(name).item(0).className='riga';
